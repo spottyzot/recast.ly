@@ -30,7 +30,7 @@ class App extends React.Component {
     return () => {
       this.setState({
         current: video,
-        videoList: videoList
+        videoList: exampleVideoData
       //need to flesh out set state of what to return to videoPlayer
 
       });
